@@ -1,0 +1,110 @@
+{
+    "cards": [
+        {
+            "name": "Garnag, Dark Adherent",
+            "rarity": "Legendary",
+            "type": "Creature",
+            "subtype": "Orc",
+            "cost": 4,
+            "power": 4,
+            "health": 5,
+            "set": {
+                "id": "fodb",
+                "name": "The Fall of the Dark Brotherhood",
+                "_self": "https://api.elderscrollslegends.io/v1/sets/fodb"
+            },
+            "soulSummon": 1200,
+            "soulTrap": 400,
+            "text": "Breakthrough. Players can't have more than 7 magicka.",
+            "attributes": [
+                "Strength"
+            ],
+            "keywords": [
+                "Breakthrough"
+            ],
+            "unique": true,
+            "imageUrl": "https://images.elderscrollslegends.io/fodb/garnag_dark_adherent.png",
+            "id": "4d884f77e9fab52226f10502993e94cad5eb1371"
+        },
+        {
+            "name": "Cicero the Betrayer",
+            "rarity": "Legendary",
+            "type": "Creature",
+            "subtype": "Imperial",
+            "cost": 6,
+            "power": 1,
+            "health": 6,
+            "set": {
+                "id": "fodb",
+                "name": "The Fall of the Dark Brotherhood",
+                "_self": "https://api.elderscrollslegends.io/v1/sets/fodb"
+            },
+            "soulSummon": 1200,
+            "soulTrap": 400,
+            "text": "Lethal. Slay: Draw two cards. Cicero can attack friendly creatures.",
+            "attributes": [
+                "Endurance"
+            ],
+            "keywords": [
+                "Lethal",
+                "Slay"
+            ],
+            "unique": true,
+            "imageUrl": "https://images.elderscrollslegends.io/fodb/cicero_the_betrayer.png",
+            "id": "4bae9c75597844f74ac29fd2001f4d8aa9b680c8"
+        },
+        {
+            "name": "Speaker Terenus",
+            "rarity": "Legendary",
+            "type": "Creature",
+            "subtype": "Imperial",
+            "cost": 10,
+            "power": 6,
+            "health": 6,
+            "set": {
+                "id": "fodb",
+                "name": "The Fall of the Dark Brotherhood",
+                "_self": "https://api.elderscrollslegends.io/v1/sets/fodb"
+            },
+            "soulSummon": 1200,
+            "soulTrap": 400,
+            "text": "After you play an action, put a random action into your hand.",
+            "attributes": [
+                "Intelligence"
+            ],
+            "keywords": [],
+            "unique": true,
+            "imageUrl": "https://images.elderscrollslegends.io/fodb/speaker_terenus.png",
+            "id": "3df08b0b6d766a7ab5dfad992c5dc1b1e887d118"
+        },
+        {
+            "name": "The Black Dragon",
+            "rarity": "Legendary",
+            "type": "Creature",
+            "subtype": "Imperial",
+            "cost": 4,
+            "power": 5,
+            "health": 5,
+            "set": {
+                "id": "fodb",
+                "name": "The Fall of the Dark Brotherhood",
+                "_self": "https://api.elderscrollslegends.io/v1/sets/fodb"
+            },
+            "soulSummon": 1200,
+            "soulTrap": 400,
+            "text": "Immune to Lethal. Slay: Discard all copies of the slain creature from the opponent's deck.",
+            "attributes": [
+                "Willpower"
+            ],
+            "keywords": [
+                "Lethal",
+                "Slay"
+            ],
+            "unique": true,
+            "imageUrl": "https://images.elderscrollslegends.io/fodb/the_black_dragon.png",
+            "id": "5f5486a10f767e3329286492d8b4345ae5432e21"
+        }
+    ],
+    "_pageSize": 100,
+    "_totalCount": 4
+}
