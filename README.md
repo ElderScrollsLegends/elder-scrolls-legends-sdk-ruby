@@ -1,5 +1,9 @@
 # Elder Scrolls: Legends SDK
 
+[![Build Status](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby.svg?branch=master)](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2505814ecf931870ff40/maintainability)](https://codeclimate.com/github/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby/badge.svg?branch=master)](https://coveralls.io/github/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby?branch=master)
+
 This is the Elder Scrolls: Legends SDK Ruby implementation. It is a wrapper around the  Elder Scrolls: Legends API of [elderscrollslegends.io](https://elderscrollslegends.io/).
 
 ## Installation
