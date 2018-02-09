@@ -14,7 +14,7 @@ module ElderScrollsLegends
     # @return [QueryBuilder] the QueryBuilder
     def where(args)
       @query.merge!(args)
-      self
+      self.all
     end
     
     # Find a single resource by the resource id

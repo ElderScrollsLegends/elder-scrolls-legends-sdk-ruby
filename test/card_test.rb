@@ -36,10 +36,7 @@ class CardTest < Minitest::Test
 
   def test_all_returns_cards
     VCR.use_cassette('all_filtered') do
-      cards = ElderScrollsLegends::Card.where(type: 'creature')
-                                       .where(rarity: 'legendary')
-                                       .where('set.id': 'fodb')
-                                       .all
+      cards = ElderScrollsLegends::Card.where(type: 'creature', rarity: 'legendary', 'set.id': 'fodb')
 
       card = cards[0]
       assert_equal 'Creature', card.type

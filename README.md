@@ -51,7 +51,7 @@ Or install it yourself as:
 
 #### Filter Cards via query parameters
 
-    cards = ElderScrollsLegends::Card.where(type: 'creature').where(subtype: 'dragon').all
+    cards = ElderScrollsLegends::Card.where(type: 'creature', subtype: 'dragon')
     
 #### Find all cards (will take awhile)
 
@@ -59,7 +59,7 @@ Or install it yourself as:
     
 #### Get all cards, but only a specific page of data
 
-    cards = ElderScrollsLegends::Card.where(page: 5).all
+    cards = ElderScrollsLegends::Card.where(page: 5)
 
 #### Get all Types
 
