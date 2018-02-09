@@ -62,5 +62,11 @@ module ElderScrollsLegends
 
       return list
     end
+
+    private
+
+    def snake_to_camel_case(str)
+      str.to_s.split('_').inject { |m, p| m + p.capitalize }
+    end
   end
 end

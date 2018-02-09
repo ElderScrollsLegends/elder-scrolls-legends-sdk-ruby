@@ -1,0 +1,42 @@
+{
+    "sets": [
+        {
+            "name": "Core Set",
+            "releaseDate": "2016-04-01",
+            "totalCards": 412,
+            "id": "cs"
+        },
+        {
+            "name": "Madhouse Collection",
+            "releaseDate": "2016-12-14",
+            "totalCards": 10,
+            "id": "mc"
+        },
+        {
+            "name": "Monthly Rewards",
+            "releaseDate": "",
+            "totalCards": 17,
+            "id": "mr"
+        },
+        {
+            "name": "The Fall of the Dark Brotherhood",
+            "releaseDate": "2017-04-05",
+            "totalCards": 40,
+            "id": "fodb"
+        },
+        {
+            "name": "Heroes of Skyrim",
+            "releaseDate": "2017-06-29",
+            "totalCards": 154,
+            "id": "hos"
+        },
+        {
+            "name": "Return to Clockwork City ",
+            "releaseDate": "2017-11-30",
+            "totalCards": 55,
+            "id": "rcc"
+        }
+    ],
+    "_pageSize": 100,
+    "_totalCount": 6
+}

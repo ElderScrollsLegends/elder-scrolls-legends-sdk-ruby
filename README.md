@@ -61,6 +61,18 @@ Or install it yourself as:
 
     cards = ElderScrollsLegends::Card.where(page: 5)
 
+#### Find a set by id
+
+    set = ElderScrollsLegends::Set.find('cs')
+
+#### Filter Sets via query parameters
+
+    sets = ElderScrollsLegends::Set.where(totalCards: 'gt400')
+
+#### Find all sets
+
+    sets = ElderScrollsLegends::Set.all
+
 #### Get all Types
 
     types = ElderScrollsLegends::Type.all

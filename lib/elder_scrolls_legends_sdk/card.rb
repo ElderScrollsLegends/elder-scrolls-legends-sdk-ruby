@@ -33,7 +33,7 @@ module ElderScrollsLegends
     # Adds a parameter to the hash of query parameters
     #
     # @param args [Hash] the query parameter
-    # @return [QueryBuilder] the QueryBuilder
+    # @return [Array<Card>] Array of Card objects
     def self.where(args)
       QueryBuilder.new(Card).where(args)
     end
