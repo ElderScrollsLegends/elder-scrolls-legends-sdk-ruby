@@ -2,13 +2,12 @@
 require 'simplecov'
 require 'codeclimate-test-reporter'
 
-
+CodeClimate::TestReporter.start
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::HTMLFormatter,
   CodeClimate::TestReporter::Formatter
 ])
 SimpleCov.start
-CodeClimate::TestReporter.start
 
 require 'elder_scrolls_legends_sdk'
 require 'minitest/autorun'
