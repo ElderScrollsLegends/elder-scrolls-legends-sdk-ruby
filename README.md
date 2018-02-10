@@ -43,6 +43,13 @@ Or install it yourself as:
     attributes
     keywords
 
+#### Set
+
+    name
+    release_date
+    total_cards
+    id
+
 ### Functions Available
 
 #### Find a card by id

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ElderScrollsLegends::VERSION
   spec.authors       = ["Andrew Backes"]
   spec.email         = ["backes.andrew@gmail.com"]
-  spec.summary       = "Elder Scrolls: Legends SDK for elderscrollslegends.io"
-  spec.description   = "Elder Scrolls: Legends SDK is a wrapper around the Elder Scrolls: Legends API located at elderscrollslegends.io"
+  spec.summary       = "Elder Scrolls: Legends SDK for https://elderscrollslegends.io"
+  spec.description   = "Elder Scrolls: Legends SDK is a wrapper around the Elder Scrolls: Legends API located at https://elderscrollslegends.io"
   spec.homepage      = "https://elderscrollslegends.io"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
