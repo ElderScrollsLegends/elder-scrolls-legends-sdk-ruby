@@ -1,5 +1,6 @@
 # Elder Scrolls: Legends SDK
 
+[![esl-developers on discord](https://img.shields.io/badge/discord-esl--developers-738bd7.svg)](https://discord.gg/97vDaJx)
 [![Gem Version](https://badge.fury.io/rb/elder_scrolls_legends_sdk.svg)](https://badge.fury.io/rb/elder_scrolls_legends_sdk)
 [![Build Status](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby.svg?branch=master)](https://travis-ci.org/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2505814ecf931870ff40/maintainability)](https://codeclimate.com/github/ElderScrollsLegends/elder-scrolls-legends-sdk-ruby/maintainability)
