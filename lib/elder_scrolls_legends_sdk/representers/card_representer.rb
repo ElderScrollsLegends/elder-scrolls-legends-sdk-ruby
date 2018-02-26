@@ -8,7 +8,7 @@ module ElderScrollsLegends
     property :name
     property :rarity
     property :type
-    property :subtype
+    collection :subtypes
     property :cost
     property :power
     property :health

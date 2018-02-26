@@ -31,7 +31,7 @@ Or install it yourself as:
     name
     rarity
     type
-    subtype
+    subtypes
     cost
     power
     health
@@ -60,7 +60,7 @@ Or install it yourself as:
 
 #### Filter Cards via query parameters
 
-    cards = ElderScrollsLegends::Card.where(type: 'creature', subtype: 'dragon')
+    cards = ElderScrollsLegends::Card.where(type: 'creature', subtypes: 'dragon')
     
 #### Find all cards (will take awhile)
 

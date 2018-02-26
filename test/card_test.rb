@@ -9,7 +9,7 @@ class CardTest < Minitest::Test
       assert_equal '1fd81123ab3eca0b29c4c19757045db9757b4f1a', card.id
       assert_equal 'Legendary', card.rarity
       assert_equal 'Creature', card.type
-      assert_equal 'Dragon', card.subtype
+      assert_equal ['Dragon'], card.subtypes
       assert_equal 20, card.cost
       assert_equal 12, card.power
       assert_equal 12, card.health

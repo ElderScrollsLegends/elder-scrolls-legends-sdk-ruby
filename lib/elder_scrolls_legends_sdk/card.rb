@@ -5,7 +5,7 @@ module ElderScrollsLegends
     include Roar::JSON
     include CardRepresenter
   
-    attr_accessor :name, :rarity, :type, :subtype, :cost, :power, :health, :soul_summon,
+    attr_accessor :name, :rarity, :type, :subtypes, :cost, :power, :health, :soul_summon,
                   :soul_trap, :text, :unique, :image_url, :id, :set, :attributes, :keywords
 
     # Get the resource string
