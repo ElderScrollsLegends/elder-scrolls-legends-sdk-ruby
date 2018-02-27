@@ -19,6 +19,7 @@ module ElderScrollsLegends
     property :image_url, as: :imageUrl
     property :id
     property :set, extend: CardSetRepresenter, class: CardSet
+    property :collectible
     collection :attributes
     collection :keywords
   end

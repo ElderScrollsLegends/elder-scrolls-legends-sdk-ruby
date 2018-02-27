@@ -8,7 +8,7 @@ class SetTest < Minitest::Test
 
       assert_equal 'cs', set.id
       assert_equal '2016-04-01', set.release_date
-      assert_equal 412, set.total_cards
+      assert_equal 444, set.total_cards
       assert_equal 'Core Set', set.name
     end
   end

@@ -39,6 +39,7 @@ Or install it yourself as:
     soul_trap
     text
     unique
+    collectible
     image_url
     id
     set

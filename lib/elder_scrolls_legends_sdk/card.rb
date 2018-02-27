@@ -6,7 +6,14 @@ module ElderScrollsLegends
     include CardRepresenter
   
     attr_accessor :name, :rarity, :type, :subtypes, :cost, :power, :health, :soul_summon,
-                  :soul_trap, :text, :unique, :image_url, :id, :set, :attributes, :keywords
+                  :soul_trap, :text, :unique, :image_url, :id, :set, :attributes, :keywords,
+                  :collectible
+    
+    def initialize
+      @subtypes = []
+      @keywords = []
+      @attributes = []
+    end
 
     # Get the resource string
     #

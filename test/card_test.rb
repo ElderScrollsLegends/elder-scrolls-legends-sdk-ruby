@@ -16,6 +16,7 @@ class CardTest < Minitest::Test
       assert_equal 'hos', card.set.id
       assert_equal 'Heroes of Skyrim', card.set.name
       assert_equal 'https://api.elderscrollslegends.io/v1/sets/hos', card.set._self
+      assert_equal true, card.collectible
       assert_equal 1200, card.soul_summon
       assert_equal 400, card.soul_trap
       assert_equal 'Costs 2 less for each Dragon in your discard pile. Summon: Destroy all other creatures. At the start of your turn, summon a random Dragon from your discard pile.', card.text
