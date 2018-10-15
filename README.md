@@ -63,7 +63,7 @@ Or install it yourself as:
 
     cards = ElderScrollsLegends::Card.where(type: 'creature', subtypes: 'dragon')
     
-#### Find all cards (will take awhile)
+#### Find all cards (will take awhile - automatically pages through all data)
 
     cards = ElderScrollsLegends::Card.all
     
